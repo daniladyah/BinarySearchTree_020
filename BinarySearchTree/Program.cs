@@ -21,6 +21,10 @@ namespace BinarySearchTree
             rchild = r;
         }
     }
+    class BinaryTree
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
