@@ -61,8 +61,14 @@ namespace BinarySearchTree
             parent = null;
             while ((currentnode != null) && (currentnode.info != elemnt))
             {
-
+                parent = currentnode;
+                if (string.Compare(elemnt, currentnode.info) <0)
+                    currentnode = currentnode.lchild;
             }
+        }
+        public void inorder(node ptr)
+        {
+
         }
     }
     internal class Program
