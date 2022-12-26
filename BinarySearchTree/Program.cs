@@ -57,7 +57,12 @@ namespace BinarySearchTree
         }
         public void find(string elemnt, ref node parent, ref node currentnode)
         {
+            currentnode = ROOT;
+            parent = null;
+            while ((currentnode != null) && (currentnode.info != elemnt))
+            {
 
+            }
         }
     }
     internal class Program
