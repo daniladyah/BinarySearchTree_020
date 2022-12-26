@@ -23,7 +23,15 @@ namespace BinarySearchTree
     }
     class BinaryTree
     {
+        public node ROOT;
+        public BinaryTree()
+        {
+            ROOT = null; //initializing root to null
+        }
+        public void insert(string element) //insert a node in the binary
+        {
 
+        }
     }
     internal class Program
     {
